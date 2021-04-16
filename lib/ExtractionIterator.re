@@ -17,10 +17,6 @@ let findByLabelName = (key, labels) =>
   |> List.find_opt(label => {
        switch (label) {
        | (Labelled(labelName), _) when labelName == key => true
-       | (Labelled(labelName), _) =>
-         print_string(labelName);
-         print_string("\n");
-         false;
        | _ => false
        }
      });
