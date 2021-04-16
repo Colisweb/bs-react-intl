@@ -17,11 +17,11 @@ let renderMessages3 = () =>
     />
   </div>
 
-let theseShouldBeIgnored = () =>
-  <div>
-    <ReactIntl.FormattedMessage x="ignored1.1" y="This message is ignored" />
-    <FormattedMessage id="ignored1.2" description="This is a description" />
-  </div>
+// let theseShouldBeIgnored = () =>
+//   <div>
+//     <ReactIntl.FormattedMessage x="ignored1.1" y="This message is ignored" />
+//     <FormattedMessage id="ignored1.2" description="This is a description" />
+//   </div>
 
 module Msg = {
   open ReactIntl
