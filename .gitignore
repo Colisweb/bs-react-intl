@@ -9,3 +9,4 @@ _release
 *.native
 bs-react-intl-extractor.install
 .DS_Store
+tmp/
